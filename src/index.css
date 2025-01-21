@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "DeceptibotsChromium";
+  src: url("fonts/DeceptibotsChromium-WE5V.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DeceptibotsHalftone";
+  src: url("fonts/DeceptibotsHalftone-D9AE.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MegatronCondensed";
+  src: url("fonts/MegatronCondensed-MGox.ttf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MegatronHollowCondensed";
+  src: url("fonts/MegatronHollowCondensed-vEWD.ttf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Transformers";
+  src: url("fonts/TransformersMovie-y9Ad.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
