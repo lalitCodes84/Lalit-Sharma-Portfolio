@@ -23,7 +23,9 @@ function ContactMe() {
             alt="Lalit Official"
             className="w-full h-auto rounded-3xl"
           />
-          <h1 className="text-2xl text-center p-5 font-semibold font-deceptibotsHalftone">{name}</h1>
+          <h1 className="text-2xl text-center p-5 font-semibold font-deceptibotsHalftone">
+            {name}
+          </h1>
         </div>
         <div>
           <form
