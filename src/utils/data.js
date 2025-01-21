@@ -1,5 +1,6 @@
 /////////////////////////////////////////////////////////////////////////////////
 
+
 // Here is the Navigation Bar data
 export const navMenus = [
   {
@@ -52,7 +53,7 @@ export const heroSectionData = [
   },
   {
     key: "photo",
-    value: 'src/assets/Lalit_Official_Image.jpg',
+    value: '/assets/Lalit_Official_Image.jpg',
   },
   {
     key: "background",

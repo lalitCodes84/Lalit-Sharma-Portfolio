@@ -1,10 +1,11 @@
 import React from "react";
 import Heading from "../components/Heading";
 import { heroSectionData } from "../utils/data.js";
+import photo from "../assets/Lalit_Official_Image.jpg"
+
 
 function ContactMe() {
   const name = heroSectionData.find((item) => item.key === "name")?.value;
-  const photo = heroSectionData.find((item) => item.key === "photo")?.value;
 
   return (
     <div id="contact-me" className="pt-16">

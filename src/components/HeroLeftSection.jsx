@@ -1,10 +1,10 @@
 import React from "react";
 import { heroSectionData } from "../utils/data";
-import WALL_IMAGE from "../assets/Lalit_Official_Image.jpg";
+import photo from "../assets/Lalit_Official_Image.jpg"
+
 function HeroLeftSection() {
-  const name = heroSectionData.find((item) => item.key === "name")?.value;
-  const photo = heroSectionData.find((item) => item.key === "photo")?.value;
-  console.log(photo, "x");
+  const name = heroSectionData.find((item) => item.key === "name")?.value;  
+ 
   return (
     <div className="flex flex-col justify-center pt-16">
       <img
