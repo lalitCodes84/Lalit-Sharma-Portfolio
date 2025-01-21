@@ -2,6 +2,9 @@ import React from "react";
 import { projects } from "../utils/data.js";
 import Heading from "../components/Heading.jsx";
 import { FaLink } from "react-icons/fa";
+import kfc_clone_img from "../assets/Kfc clone react.png";
+import bluefly_clone_img from "../assets/bluefly clone.png";
+import asos_clone_img from "../assets/asos clone first project.png";
 
 function Projects() {
   return (
@@ -17,7 +20,17 @@ function Projects() {
             key={index}
             className="grid m-auto p-2 shadow-shadowMain rounded-md"
           >
-            <img src={project.image} alt="" className="w-72" />
+            <img
+              src={
+                project.name === "kfc clone"
+                  ? kfc_clone_img
+                  : project.name === "asos clone"
+                  ? asos_clone_img
+                  : bluefly_clone_img
+              }
+              alt=""
+              className="w-72"
+            />
             <div className="flex justify-between items-center mt-2 p-2 shadow-shadowInner rounded-md">
               <p className="text-xl font-light font-transformers">
                 {project.name.toUpperCase()}

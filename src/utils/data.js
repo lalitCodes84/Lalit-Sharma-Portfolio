@@ -163,7 +163,7 @@ export const projects = [
     name: "kfc clone",
     githubRepoLink: "https://github.com/lalitCodes84/kfc-clone-react",
     liveLink: "https://kfcdotcomclone.netlify.app/",
-    image: "src/assets/Kfc clone react.png",
+    image: "../assets/Kfc clone react.png",
   },
   {
     name: "asos clone",
