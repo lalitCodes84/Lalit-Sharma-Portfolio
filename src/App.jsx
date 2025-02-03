@@ -21,7 +21,7 @@ function App() {
 
 
   return (
-    <div className="h-screen overflow-y-auto" data-aos="zoom-in">
+    <div className="h-screen overflow-y-auto">
       <Navbar />
       <HeroSection />
       <AboutMe />
