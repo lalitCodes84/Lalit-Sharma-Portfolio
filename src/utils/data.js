@@ -43,8 +43,8 @@ export const heroSectionData = [
   {
     key: "ctaButtons",
     value: [
-      { label: "Hire Me", link: "/contact" },
-      { label: "View My Work", link: "/#portfolio" },
+      { label: "Hire Me", link: "contact-me" },
+      { label: "View My Work", link: "projects" },
       {
         label: "Download Resume",
         link: "https://resume-builder-test-new.masaischool.com/resume/public?resumeId=674d40bfd88f5010905a83cf",

@@ -5,7 +5,7 @@ import AboutMeLeftSection from "../components/AboutMeLeftSection";
 
 function AboutMe() {
   return (
-    <div id="about-me" className=" px-16 ">
+    <div id="about-me" className="px-16">
       <Heading
         text="About Me"
         level={1}

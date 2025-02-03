@@ -5,7 +5,7 @@ import * as Icons from "react-icons/fa"; // Import all icons
 
 function Skills() {
   return (
-    <div id="skills" className="px-16 ">
+    <div id="skills" className="px-16">
       <Heading
         text={"Skills"}
         level={1}

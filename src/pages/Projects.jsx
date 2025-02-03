@@ -30,6 +30,7 @@ function Projects() {
               }
               alt=""
               className="w-72"
+              
             />
             <div className="flex justify-between items-center mt-2 p-2 shadow-shadowInner rounded-md">
               <p className="text-xl font-light font-transformers">
@@ -39,6 +40,7 @@ function Projects() {
                 <a
                   href={project.liveLink}
                   className="flex gap-x-2 hover:text-optimusOrange  text-optimusBlue font-bold"
+                  target="_blank"
                 >
                   Live Link
                   <FaLink />
@@ -46,6 +48,7 @@ function Projects() {
                 <a
                   href={project.githubRepoLink}
                   className="flex gap-x-2 hover:text-optimusOrange text-optimusBlue font-bold"
+                  target="_blank"
                 >
                   Github Repo
                   <FaLink />

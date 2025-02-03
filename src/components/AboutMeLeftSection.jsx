@@ -16,7 +16,7 @@ function AboutMeLeftSection() {
     <div className="w-[40vw]">
       <p>{description.details}</p>
       {personalInfo.details.map((item, index) => (
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4 items-center" key={index}>
           <FcAdvance />
           <p key={index} className="font-semibold mt-1 underline">
             {item.label} - {item.value}
@@ -27,7 +27,7 @@ function AboutMeLeftSection() {
         I have worked in various non-tech roles at companies like
       </p>
       {workExperience.details.map((item, index) => (
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4 items-center" key={index}>
           <FcAdvance />
           <p key={index} className="font-normal mt-1">
             {item.company} - {item.role}

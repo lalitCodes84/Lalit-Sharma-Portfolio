@@ -18,7 +18,7 @@ function HeroRightSection() {
     <div className="pt-16">
       <p className="font-transformers mb-4">{title}</p>
       {expertise.map((item, index) => (
-        <div className="flex items-center ">
+        <div className="flex items-center " key={index}>
           <FcAdvance />
           &nbsp; &nbsp; &nbsp;
           <p className="font-sans" key={index}>

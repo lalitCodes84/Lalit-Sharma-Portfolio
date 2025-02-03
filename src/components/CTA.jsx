@@ -13,7 +13,7 @@ function CTA() {
           className="font-megatronCondensed border-2 bg-optimusSkyblue p-2 hover:bg-optimusBlue text-optimusWhite"
           key={index}
         >
-          <a href={cta.link}>{cta.label}</a>
+          <a href={cta.label !== "Download Resume" ? `#${cta.link}`: cta.link} >{cta.label}</a>
         </button>
       ))}
     </div>
