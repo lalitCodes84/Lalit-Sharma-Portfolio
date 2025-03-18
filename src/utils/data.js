@@ -1,6 +1,5 @@
 /////////////////////////////////////////////////////////////////////////////////
 
-
 // Here is the Navigation Bar data
 export const navMenus = [
   {
@@ -53,7 +52,7 @@ export const heroSectionData = [
   },
   {
     key: "photo",
-    value: '/assets/Lalit_Official_Image.jpg',
+    value: "/assets/Lalit_Official_Image.jpg",
   },
   {
     key: "background",
@@ -166,15 +165,21 @@ export const projects = [
     image: "../assets/Kfc clone react.png",
   },
   {
-    name: "asos clone",
+    name: "Asos clone",
     githubRepoLink: "https://github.com/lalitCodes84/Asos.comClone",
     liveLink: "https://lalitcodes84.github.io/Asos.comClone/",
     image: "src/assets/asos clone first project.png",
   },
   {
-    name: "bluefly clone",
+    name: "Bluefly clone",
     githubRepoLink: "https://github.com/lalitCodes84/Blue-Fly-Clone-",
     liveLink: "https://sensational-bombolone-51292b.netlify.app/",
     image: "src/assets/bluefly clone.png",
+  },
+  {
+    name: "G-Gemini",
+    githubRepoLink: "https://github.com/lalitCodes84/my-gemini",
+    liveLink: "https://my-gemini-brown.vercel.app/",
+    image: "src/assets/mygemini.png",
   },
 ];
