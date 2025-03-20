@@ -16,11 +16,11 @@ function Projects() {
         level={1}
         className="m-auto font-deceptibotsHalftone text-center text-2xl my-10 underline"
       />
-      <div className="grid grid-cols-3 gap-4 p-4 gap-x-4">
+      <div className="grid grid-cols-3 p-4 w-[80vw] gap-10 justify-center m-auto">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="grid m-auto p-2 shadow-shadowMain rounded-md"
+            className="m-auto border-2 p-2 shadow-shadowMain rounded-md "
           >
             <img
               src={
