@@ -5,6 +5,8 @@ import { FaLink } from "react-icons/fa";
 import kfc_clone_img from "../assets/Kfc clone react.png";
 import bluefly_clone_img from "../assets/bluefly clone.png";
 import asos_clone_img from "../assets/asos clone first project.png";
+import myGemini from "../assets/mygemini.png";
+
 
 function Projects() {
   return (
@@ -26,7 +28,9 @@ function Projects() {
                   ? kfc_clone_img
                   : project.name === "asos clone"
                   ? asos_clone_img
-                  : bluefly_clone_img
+                  : project.name === "bluefly clone"
+                  ? bluefly_clone_img
+                  : myGemini
               }
               alt=""
               className="w-72"

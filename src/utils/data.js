@@ -165,13 +165,13 @@ export const projects = [
     image: "../assets/Kfc clone react.png",
   },
   {
-    name: "Asos clone",
+    name: "asos clone",
     githubRepoLink: "https://github.com/lalitCodes84/Asos.comClone",
     liveLink: "https://lalitcodes84.github.io/Asos.comClone/",
     image: "src/assets/asos clone first project.png",
   },
   {
-    name: "Bluefly clone",
+    name: "bluefly clone",
     githubRepoLink: "https://github.com/lalitCodes84/Blue-Fly-Clone-",
     liveLink: "https://sensational-bombolone-51292b.netlify.app/",
     image: "src/assets/bluefly clone.png",
