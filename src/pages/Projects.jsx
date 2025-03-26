@@ -1,4 +1,3 @@
-// import React from "react";
 import { projects } from "../utils/data.js";
 import Heading from "../components/Heading.jsx";
 import { FaLink } from "react-icons/fa";

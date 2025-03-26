@@ -1,4 +1,3 @@
-import React from "react";
 import ContactMeLeftSection from "../components/ContactMeLeftSection.jsx";
 import ContactMeRightSection from "../components/ContactMeRightSection.jsx";
 import Heading from "../components/Heading.jsx";

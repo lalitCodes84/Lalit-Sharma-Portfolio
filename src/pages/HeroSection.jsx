@@ -1,4 +1,3 @@
-// import React from "react";
 import HeroRightSection from "../components/HeroRightSection";
 import HeroLeftSection from "../components/HeroLeftSection";
 // import { motion } from "framer-motion";

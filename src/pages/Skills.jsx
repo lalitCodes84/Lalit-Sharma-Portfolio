@@ -1,4 +1,3 @@
-import React from "react";
 import Heading from "../components/Heading";
 import { skillsIcons } from "../utils/data";
 import * as Icons from "react-icons/fa"; // Import all icons
