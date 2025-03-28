@@ -161,7 +161,7 @@ export const projects = [
   {
     name: "G-Gemini",
     githubRepoLink: "https://github.com/lalitCodes84/my-gemini",
-    liveLink: "https://my-gemini-brown.vercel.app/",
+    liveLink: "https://my-gemini-flax.vercel.app/",
     image: "src/assets/mygemini.png",
   },
   {
