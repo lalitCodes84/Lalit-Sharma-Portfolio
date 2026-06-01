@@ -162,7 +162,7 @@ export const projects = [
     name: "Nexovision",
     githubRepoLink: "https://github.com/lalitCodes84/nexovision",
     liveLink: "https://nexovision-i554.vercel.app/",
-    image: "src/assets/nexovision-work.png",
+    image: "src/assets/nexovision_hero.png",
   },
   {
     name: "G-Gemini",

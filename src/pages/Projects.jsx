@@ -5,6 +5,7 @@ import kfc_clone_img from "../assets/Kfc clone react.png";
 import bluefly_clone_img from "../assets/bluefly clone.png";
 import asos_clone_img from "../assets/asos clone first project.png";
 import myGemini from "../assets/mygemini.png";
+import nexovision_hero from "../assets/nexovision_hero.png";
 
 
 function Projects() {
@@ -29,7 +30,9 @@ function Projects() {
                   ? asos_clone_img
                   : project.name === "bluefly clone"
                   ? bluefly_clone_img
-                  : myGemini
+                  : project.name === "G-Gemini"
+                  ? myGemini
+                  :nexovision_hero
               }
               alt=""
               className="w-72"
