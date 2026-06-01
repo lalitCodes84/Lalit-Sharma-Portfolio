@@ -159,6 +159,12 @@ export const skillsIcons = [
 // Here is the Projects section data
 export const projects = [
   {
+    name: "Nexovision",
+    githubRepoLink: "https://github.com/lalitCodes84/nexovision",
+    liveLink: "https://nexovision-i554.vercel.app/",
+    image: "src/assets/nexovision-work.png",
+  },
+  {
     name: "G-Gemini",
     githubRepoLink: "https://github.com/lalitCodes84/my-gemini",
     liveLink: "https://my-gemini-flax.vercel.app/",
@@ -181,5 +187,5 @@ export const projects = [
     githubRepoLink: "https://github.com/lalitCodes84/Blue-Fly-Clone-",
     liveLink: "https://sensational-bombolone-51292b.netlify.app/",
     image: "src/assets/bluefly clone.png",
-  },
+  },  
 ];
