@@ -46,7 +46,7 @@ export const heroSectionData = [
       { label: "View My Work", link: "projects" },
       {
         label: "Download Resume",
-        link: "https://resume-builder-test-new.masaischool.com/resume/public?resumeId=67a08bf5f97830ef5e92d7bc",
+        link: "https://drive.google.com/file/d/1Yu49ZvcKoTQdr94gVtz3Cg-eUl9k4alS/view?usp=sharing",
       },
     ],
   },
